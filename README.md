@@ -48,8 +48,7 @@ Materials:
 Advanced materials:
 
 - [Azure.com/AI](https://www.azure.com/ai)
-- [Microsoft AI Blog](https://blogs.microsoft.com/ai/)
-- [Microsoft Azure for Research Program](https://www.microsoft.com/en-us/research/academic-program/microsoft-azure-for-research/).
+- [Microsoft AI Blog](https://blogs.microsoft.com/ai/).
 
 ##### Azure Machine Learning
 
@@ -70,15 +69,14 @@ Advanced materials:
 - [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
 - [Machine Learning Algorithm Cheat Sheet](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet)
 - [Lecture at HSE/MAMI on Azure Machine Learning](https://www.codeinstinct.pro/2015/10/azureml-lecture-at-hse.html)
-- [Machine learning hackathon: How to win!](https://www.codeinstinct.pro/2015/11/azure-ml-hackathon.html)
-- [Machine Learning Studio pricing](https://azure.microsoft.com/pricing/details/machine-learning-studio/).
+- [Machine learning hackathon: How to win!](https://www.codeinstinct.pro/2015/11/azure-ml-hackathon.html).
 
 ##### Practice
 
 - Creating [Azure Machine Learning workspace](https://studio.azureml.net/)
-- First steps in Azure ML Studio:
-  - Classification of diabetes in Azure ML Web Studio
-  - Classification of cancer in the Azure Notebooks
+- First steps in Azure ML:
+  - [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database) classification in Azure ML Web Studio
+  - Pima Indians Diabetes visualization in Azure ML Notebooks
 - Advanced techniques for working with Azure ML Studio:
   - [Semantic analysis of tweets in Azure ML Web Studio](https://www.codeinstinct.pro/2015/12/community-dev-camp14.html)
   - REST service for analyzing tweets in Azure ML Web Services.
@@ -94,7 +92,7 @@ Topics:
   - Fully connected neural networks (FNN)
   - Convolutional neural networks (CNN)
   - Recurrent neural networks (RNN)
-  - Generative adversarial network (GAN).
+  - Generative adversarial network ([GAN](https://github.com/codez0mb1e/evangelism/tree/master/AI-Workshop/samples/generative_models)).
 
 Materials:
 
@@ -126,27 +124,42 @@ Advanced materials:
 ##### Practice
 
 - Deployment of Azure Deep Learning VM
-- Computer vision workshop:
-  - Handwriting recognition of digits (MNIST database): [Azure ML](http://gallery.azure.ai/Experiment/Neural-Network-Convolution-and-pooling-deep-net-2), and [keras](demos/mnist-cnn-model--keras/).
+- Handwriting recognition of digits (MNIST database)
+  - [Azure ML](https://github.com/codez0mb1e/evangelism/tree/master/AI-in-Azure/demos/mnist-cnn-model--azure-ml)
+  - [keras CNN](https://github.com/codez0mb1e/evangelism/tree/master/AI-in-Azure/demos/mnist-cnn-model--keras)
+  - [keras autoencoder](https://github.com/codez0mb1e/evangelism/blob/master/AI-Workshop/samples/generative_models/simple_autoencoder.R)
+- [Bitcoin price prediction](https://github.com/codez0mb1e/evangelism/tree/master/AI-Workshop/samples/LSTM)
 
 #### Module III. Large Scalable Machine Learning
 
 ##### Big Data Concepts
 
+[Slides]()
+
 ##### Big Data Ecosystem in Azure
+
+[Practice](https://github.com/codez0mb1e/evangelism/tree/master/big-data-workshop/apache-spark-on-azure-vm)
 
 ##### Azure HDInsight
 
+[Practice](https://github.com/codez0mb1e/evangelism/tree/master/big-data-workshop/apache-spark-on-azure-hdinsight)
+
 ##### Azure Databricks
 
-##### Practice
+[Practice](https://github.com/codez0mb1e/evangelism/tree/master/big-data-workshop/apache-spark-on-azure-databricks)
 
 #### Module IV. _Optional Topics_
 
 ##### Auto ML
 
+Materials:
+
 - [Slides](http://0xcode.in/auto-ml-intro)
-- [Azure Automated ML documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml).
+- [Azure Automated ML documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml)
+
+Practice:
+
+- [Prediction of the Dow Jones index on Donald Trump's tweets](http://0xcode.in/auto-ml-intro)
 
 ##### MLOps
 
@@ -160,11 +173,9 @@ Advanced materials:
   - [github.com/awesomedata](https://github.com/awesomedata/awesome-public-datasets)
 - Research papers hubs
   - AI list on [arxiv.org](https://arxiv.org/list/cs.AI/recent)
-  - [datascience.stackexchange.com](https://datascience.stackexchange.com/)
-  - [github.com](https://github.com/)
 - Communities
-  - Github
-  - Stackoverflow
+  - [datascience.stackexchange.com](https://datascience.stackexchange.com/)
+  - [Github.com](https://github.com/)
   - [Kaggle](https://www.kaggle.com/)
   - [ML trainings](https://mltrainings.ru/)
-  - ODS.ai
+  - ODS.ai.
