@@ -54,10 +54,12 @@ Advanced materials:
 
 Topics:
 
-- Overview of the Azure ML service
-- Getting and transforming data in Azure ML Web Studio
-- ML-algorithms, training, and model evaluation in Azure ML Web Studio
-- Azure Notebooks: an interactive application for analyzing and developing ML models.
+- Overview of the Azure Machine Learning
+- Azure ML Datasets: upload, getting and transforming data
+- Azure ML Designer: supported ML algorithms, train and evaluation model
+- Azure ML Notebooks: an interactive application for analyzing and developing ML models
+- AutoML in Azure ML
+- Tools Azure ML: VS Code and Azure Machine Learning Extension for interaction with Azure ML.
 
 Materials:
 
@@ -66,20 +68,18 @@ Materials:
 Advanced materials:
 
 - [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
-- [Machine Learning Algorithm Cheat Sheet](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet)
+- [Machine Learning Algorithm Cheat Sheet](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet)
 - [Lecture at HSE/MAMI on Azure Machine Learning](https://www.codeinstinct.pro/2015/10/azureml-lecture-at-hse.html)
 - [Machine learning hackathon: How to win!](https://www.codeinstinct.pro/2015/11/azure-ml-hackathon.html).
 
 ##### Practice
 
-- Creating [Azure Machine Learning workspace](https://studio.azureml.net/)
-- First steps in Azure ML:
-  - [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database) classification in Azure ML Web Studio
-  - Pima Indians Diabetes visualization in Azure ML Notebooks
-  - [COVID-19 Analytics](https://github.com/codez0mb1e/covid-19)
-- Advanced techniques for working with Azure ML Studio:
-  - [Semantic analysis of tweets in Azure ML Web Studio](https://www.codeinstinct.pro/2015/12/community-dev-camp14.html)
-  - REST service for analyzing tweets in Azure ML Web Services.
+1. Create [Azure ML Workspace](https://portal.azure.com/#create/Microsoft.MachineLearningServices) 
+1. Azure ML Compute: сreate compute cluster
+1. Azure ML Datasets: upload [Pima Indians Diabetes Database](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+1. Azure ML Designer: create Pima Indians Diabetes Experiment and train model
+1. Azure ML Notebooks: visualization using Jupyter Lab
+1. Tools for Azure ML: install VS Code and Azure Machine Learning Extension.
 
 #### Module II: Basics of Deep Learning
 
