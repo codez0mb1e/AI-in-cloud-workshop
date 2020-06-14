@@ -9,9 +9,9 @@
 
 Requirements to the students:
 
-1. Modern web browser;
+1. Modern web browser
 2. [Microsoft Azure Account](https://azure.microsoft.com/en-us/)
-3. [Basic knowledge R](https://codez0mb1e.github.io/StarRter/) or Python.
+3. [Basic knowledge in R](https://codez0mb1e.github.io/StarRter/) or Python.
 
 #### Module I: Basics of Machine Learning
 
@@ -61,7 +61,6 @@ Topics:
 
 Materials:
 
-- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjLkDGRcDRPR4GwXG-A?e=6jjCJw)
 - [Getting started in Azure ML Studio](https://youtu.be/TXBV2Nnrpfc) video lesson.
 
 Advanced materials:
@@ -77,6 +76,7 @@ Advanced materials:
 - First steps in Azure ML:
   - [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database) classification in Azure ML Web Studio
   - Pima Indians Diabetes visualization in Azure ML Notebooks
+  - [COVID-19 Analytics](https://github.com/codez0mb1e/covid-19)
 - Advanced techniques for working with Azure ML Studio:
   - [Semantic analysis of tweets in Azure ML Web Studio](https://www.codeinstinct.pro/2015/12/community-dev-camp14.html)
   - REST service for analyzing tweets in Azure ML Web Services.
