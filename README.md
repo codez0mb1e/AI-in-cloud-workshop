@@ -74,12 +74,8 @@ Advanced materials:
 
 ##### Practice
 
-1. Create [Azure ML Workspace](https://portal.azure.com/#create/Microsoft.MachineLearningServices) 
-1. Azure ML Compute: сreate compute cluster
-1. Azure ML Datasets: upload [Pima Indians Diabetes Database](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
-1. Azure ML Designer: create Pima Indians Diabetes Experiment and train model
-1. Azure ML Notebooks: [clone repo](azure-ml-notebook.sh) and [Pima Indians Diabetes EDA](pima-indians-diabetes.ipynb)
-1. Tools for Azure ML: install VS Code and Azure Machine Learning Extension.
+1. Create [Azure ML Workspace](https://portal.azure.com/#create/Microsoft.MachineLearningServices)
+1. [Pima Indians Diabetes Lab](pima-indians-diabetes/) in Azure ML.
 
 #### Module II: Basics of Deep Learning
 
