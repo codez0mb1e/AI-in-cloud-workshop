@@ -119,12 +119,10 @@ Advanced materials:
 
 ##### Practice
 
-- Deployment of Azure Deep Learning VM
-- Handwriting recognition of digits (MNIST database)
-  - [Azure ML](https://github.com/codez0mb1e/evangelism/tree/master/AI-in-Azure/demos/mnist-cnn-model--azure-ml)
-  - [keras CNN](https://github.com/codez0mb1e/evangelism/tree/master/AI-in-Azure/demos/mnist-cnn-model--keras)
+1. Deploy of [Azure Deep Learning VM](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro) on Ubuntu Server
+1. [MNIST Digits Recognition](mnist-digits-recognition/) Lab.
   - [keras autoencoder](https://github.com/codez0mb1e/evangelism/blob/master/AI-Workshop/samples/generative_models/simple_autoencoder.R)
-- [Bitcoin price prediction](https://github.com/codez0mb1e/evangelism/tree/master/AI-Workshop/samples/LSTM)
+1. [Bitcoin price prediction](https://github.com/codez0mb1e/evangelism/tree/master/AI-Workshop/samples/LSTM)
 
 #### Module III. Large Scalable Machine Learning
 
