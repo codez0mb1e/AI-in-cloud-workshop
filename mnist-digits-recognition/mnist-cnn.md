@@ -46,7 +46,7 @@ y_test <- mnist$test$y
 ``` r
 batch_size <- 128
 num_classes <- 10
-epochs_n <- 2 # 99.25% test accuracy after 12 epochs
+epochs_n <- 12 # 99.25% test accuracy after 12 epochs
 ```
 
 ### Split dataset into the train and test sets
@@ -144,13 +144,13 @@ scores <- model %>% evaluate(
 print(sprintf("Loss: %f", scores[[1]]))
 ```
 
-    ## [1] "Loss: 0.043215"
+    ## [1] "Loss: 0.034143"
 
 ``` r
 print(sprintf("Accuracy: %f", scores[[2]]))
 ```
 
-    ## [1] "Accuracy: 0.985700"
+    ## [1] "Accuracy: 0.990800"
 
 ### References
 

@@ -54,7 +54,7 @@ y_test <- mnist$test$y
 ```{r}
 batch_size <- 128
 num_classes <- 10
-epochs_n <- 2 # 99.25% test accuracy after 12 epochs
+epochs_n <- 12 # 99.25% test accuracy after 12 epochs
 ```
 
 
@@ -109,7 +109,7 @@ summary(model)
 
 ### Train model
 
-```{r message=FALSE, warning=FALSE}
+```{r train_model, message=FALSE, warning=FALSE}
 history <- model %>% fit(
   x_train, y_train,
   batch_size = batch_size,
