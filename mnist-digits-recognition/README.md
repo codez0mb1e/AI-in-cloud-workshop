@@ -6,6 +6,8 @@ The MNIST database of handwritten digits.
 ## Steps
 
 1. Create Ubuntu Server GPU-instance in Azure
+    - [Azure Data Science VM](https://portal.azure.com/#create/microsoft-dsvm.ubuntu-18041804) (NC family)
+    - [Compute Instance](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-instance) (NC family) in Azure Machine Learning service
 1. In terminal:
     - Check Ubuntu version: `lsb_release -a`
     - Check in terminal GPU device: `watch nvidia-smi`
