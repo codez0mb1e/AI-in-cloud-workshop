@@ -9,26 +9,50 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Train a Convolution Neural Network on the MNIST dataset using Keras (Tensorflow backend).
+Train a __Convolution Neural Network__ on the MNIST dataset using Keras (Tensorflow backend).
 
+
+
+### Set training params
+
+```{r}
+batch_size <- 128
+num_classes <- 10
+epochs_n <- 12
+```
 
 
 ## Init Keras
 
 ```{r init_keras}
-keras::install_keras() # or install_keras(tensorflow = "gpu")
+keras::install_keras(tensorflow = "gpu")
 library(keras)
 ```
 
+
+```{r}
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(purrr)
+})
+
+sessionInfo()
+```
 
 
 ## Load and preprocessing MNIST dataset
 
 ```{r}
 mnist <- dataset_mnist()
+str(mnist)
+```
 
-# split dataset
-reshapeArray <- function(dt) {
+
+### Split dataset into the train and test sets
+
+``` {r}
+
+reshape_array <- function(dt) {
   img_resolution <- c(28, 28)
   names(img_resolution) <- c("width", "height")
   
@@ -38,37 +62,28 @@ reshapeArray <- function(dt) {
   r/255 # transform RGB values into [0,1] range
 }
 
+
 # prepare train and test datasets
-x_train <- reshapeArray(mnist$train$x)
-x_test <- reshapeArray(mnist$test$x)
+x_train <- reshape_array(mnist$train$x)
+x_test <- reshape_array(mnist$test$x)
 
 y_train <- mnist$train$y
 y_test <- mnist$test$y
 
-```
 
-
-
-### Set training params
-
-```{r}
-batch_size <- 128
-num_classes <- 10
-epochs_n <- 12 # 99.25% test accuracy after 12 epochs
-```
-
-
-### Split dataset into the train and test sets
-
-``` {r}
 # convert class vectors to binary class matrices
 y_train <- to_categorical(y_train, num_classes)
 y_test <- to_categorical(y_test, num_classes)
 
+```
+
+Get input shape:
+```{r}
 input_shape <- c(dim(x_train)[2], 
                  dim(x_train)[3],
                  dim(x_train)[4])
 
+input_shape
 ```
 
 
@@ -143,7 +158,5 @@ print(sprintf("Accuracy: %f", scores[[2]]))
 
 ### References
 
-1. LeCun, Yann, et al. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf), 1998. 
-1. [MNIST database](https://en.wikipedia.org/wiki/MNIST_database). Wikipedia.
-3. [Keras Examples](https://tensorflow.rstudio.com/guide/keras/examples/), Keras for R.
+1. [Keras Examples](https://tensorflow.rstudio.com/guide/keras/examples/), Keras for R.
 

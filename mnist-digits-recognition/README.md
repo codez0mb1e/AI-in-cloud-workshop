@@ -15,3 +15,10 @@ The MNIST database of handwritten digits.
     - Install htop: `sudo apt install htop`
 1. Clone repo: `git clone https://github.com/codez0mb1e/AI-in-cloud-workshop.git`
 1. Open [MNIST Digits Recognition with Keras](mnist-cnn.Rmd) in RStudio Server.
+
+
+### References
+
+1. LeCun, Yann, et al. [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf), 1998. 
+1. [MNIST database](https://en.wikipedia.org/wiki/MNIST_database). Wikipedia.
+
