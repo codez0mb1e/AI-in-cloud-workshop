@@ -177,8 +177,9 @@ Practice:
 - [ACM Digital Library](https://dl.acm.org/)
 - [Google Research Publication Database](https://research.google/pubs/)
 - [State-of-the-Art Machine Learning Papers](https://paperswithcode.com/sota)
-- https://www.elibrary.ru/defaultx.asp
-- https://sci-hub.tw/
+- [arxiv AI Index](https://arxiv.aiindex.org/search)
+- [eLibrary.ru](https://www.elibrary.ru/defaultx.asp)
+- [Sci-Hub](https://sci-hub.tw/)
 - https://dblp.uni-trier.de/
 - http://gen.lib.rus.ec/
 
