@@ -19,7 +19,7 @@ except ComputeTargetException:
 gpu_cluster.wait_for_completion(show_output=True)
 
 
-Set remote environment:
+# Set remote environment:
 
 from azureml.core.runconfig import RunConfiguration
 from azureml.core.conda_dependencies import CondaDependencies
