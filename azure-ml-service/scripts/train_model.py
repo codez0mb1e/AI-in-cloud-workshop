@@ -39,26 +39,26 @@ X, y = diabetes[['Pregnancies','PlasmaGlucose','DiastolicBloodPressure','Triceps
 
 
 #%% Split data into training set and test set
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=314)
 
 
 #%% Train a logistic regression model
-print('Training a logistic regression model with regularization rate of', reg)
+print(f'Training a logistic regression model with regularization rate of {reg}')
 run.log('Regularization Rate',  np.float(reg))
-model = LogisticRegression(C=1/reg, solver="liblinear").fit(X_train, y_train)
+model = LogisticRegression(C=1/reg, solver='liblinear').fit(X_train, y_train)
 
 
 #%% calculate accuracy
 y_hat = model.predict(X_test)
 acc = np.average(y_hat == y_test)
-print('Accuracy:', acc)
+print(f'Accuracy: {acc}')
 run.log('Accuracy', np.float(acc))
 
 
 #%% calculate AUC
 y_scores = model.predict_proba(X_test)
 auc = roc_auc_score(y_test,y_scores[:,1])
-print('AUC: ' + str(auc))
+print(f'AUC: {str(auc)}')
 run.log('AUC', np.float(auc))
 
 
