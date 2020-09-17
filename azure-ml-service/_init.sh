@@ -1,11 +1,5 @@
 #!/bin/sh
 
-
-# check that is not your VM
-sudo apt install htop
-htop
-
-
 # check installed frameworks
 python --version
 pip --version
