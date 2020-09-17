@@ -1,0 +1,47 @@
+default:
+  core:
+    expriments_root_dir: 'expriments/'
+    datastore_name: 'aml_workshop_data'
+    dataset_name: 'diabetes_db'
+    ml_cluster_name: 'aml-workshop-cluster'
+    
+  lab-2:
+    experiment_name: ''
+    endpoint_uri: ''
+    api_key: ''
+    
+  lab-3:
+    experiment_name: ''
+    storage_account_name: ''
+    storage_container_name: ''
+    storage_account_key: ''
+  
+  lab-4A:
+    experiment_name: ''
+  
+  lab-4B:
+    experiment_name: ''
+  
+  lab-5A:
+    experiment_name: ''
+    
+  lab-5A:
+    experiment_name: ''
+    
+  lab-6A:
+    experiment_name: ''
+    
+  lab-6B:
+    experiment_name: ''
+  
+  lab-7A:
+    experiment_name: ''
+    
+  lab-7B:
+    experiment_name: ''
+    
+  lab-8A:
+    experiment_name: ''
+    
+  lab-8A:
+    experiment_name: ''
