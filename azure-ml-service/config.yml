@@ -1,47 +1,57 @@
 default:
   core:
     expriments_root_dir: 'expriments/'
-    datastore_name: 'aml_workshop_data'
+    datastore_name: 'aml-workshop-data'
     dataset_name: 'diabetes_db'
-    ml_cluster_name: 'aml-workshop-cluster'
+    ml_cluster_name: 'aml-ws-cluster'
+    ml_model_name: 'diabetes-predict-model'
     
-  lab-2:
-    experiment_name: ''
+  lab_2:
+    experiment_name: 'ml-model-inference-experiment'
     endpoint_uri: ''
     api_key: ''
     
-  lab-3:
-    experiment_name: ''
+  lab_3:
+    experiment_name: 'dataset-experiment'
     storage_account_name: ''
     storage_container_name: ''
     storage_account_key: ''
   
-  lab-4A:
-    experiment_name: ''
+  lab_4A:
+    experiment_name: 'my-1st-experiment'
   
-  lab-4B:
-    experiment_name: ''
+  lab_4B:
+    experiment_name: 'train-model-experiment'
+    experiment_tag: ''
   
-  lab-5A:
-    experiment_name: ''
+  lab_5A:
+    experiment_name: 'environments-experiment'
+    experiment_tag: ''
     
-  lab-5A:
-    experiment_name: ''
+  lab_5B:
+    experiment_name: 'compute-targets-experiment'
+    experiment_tag: ''
     
-  lab-6A:
-    experiment_name: ''
+  lab_6A:
+    experiment_name: 'pipeline-experiment'
     
-  lab-6B:
-    experiment_name: ''
+  lab_6B:
+    experiment_name: 'pipeline-experiment'
   
-  lab-7A:
-    experiment_name: ''
+  lab_7A:
+    experiment_name: 'realtime-service-experiment'
+    experiment_tag: 'RealtimeService'
     
-  lab-7B:
-    experiment_name: ''
+  lab_7B:
+    experiment_name: 'batch-service-experiment'
+    experiment_tag: 'BatchService'
     
-  lab-8A:
-    experiment_name: ''
+  lab_8A:
+    experiment_name: 'hyperparam-tuning-experiment'
+    experiment_tag: 'HyperDrive'
     
-  lab-8A:
-    experiment_name: ''
+  lab_8A:
+    experiment_name: 'auto-ml-experiment'
+    experiment_tag: 'AutoML'
+    working_subdir: 'auto-ml-lab'
+    
