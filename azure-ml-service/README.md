@@ -8,7 +8,7 @@
 
 1. Go to [Azure Portal](https://portal.azure.com/#home) and switch to English UI
 1. Find [Machine Learning service](https://portal.azure.com/#create/Microsoft.MachineLearningServices) and create Azure ML `Workspace`
-1. Go to (Azure ML Portal)[https://ml.azure.com/] and create `Compute instance` (Compute > Compute instance tab)
+1. Go to [Azure ML Portal](https://ml.azure.com/) and create `Compute instance` (Compute > Compute instance tab)
 1. Click to JupiterLab link after creating the `Compute instance`.
 
 #### Clone repository
