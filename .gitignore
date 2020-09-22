@@ -8,5 +8,5 @@
 
 logs/
 
-ws_config.json
+config.json
 secrets.yml
