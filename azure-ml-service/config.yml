@@ -6,17 +6,20 @@ default:
     ml_cluster_name: 'aml-ws-cluster'
     ml_model_name: 'diabetes-predict-model'
     
-  lab_2:
-    experiment_name: 'ml-model-inference-experiment'
-    endpoint_uri: ''
-    api_key: ''
-    
-  lab_3:
+  lab_1B: 
+    experiment_name: 'azure-ml-sdk-intro'
+  
+  lab_2B:
     experiment_name: 'dataset-experiment'
     storage_account_name: ''
     storage_container_name: ''
     storage_account_key: ''
   
+  lab_3B:
+    experiment_name: 'ml-model-inference-experiment'
+    endpoint_uri: ''
+    api_key: ''
+    
   lab_4A:
     experiment_name: 'my-1st-experiment'
   
