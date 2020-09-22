@@ -39,7 +39,7 @@ cd azure-ml-service/
 ./_init.sh 
 ```
 
-#### References
+References:
 
 1. [Azure Machine Learning Overview](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml), Micosoft Docs.
 1. [Video Instruction]() (in Russian), Youtube.
@@ -47,9 +47,11 @@ cd azure-ml-service/
 
 ### Lab 1B: Azure ML SDK
 
+Steps: 
+
 1. Open and run [01B-azure-ml-sdk-intro.ipynb](01B-azure-ml-sdk-intro.ipynb) in JupterLab.
 
-#### References
+References:
 
 1. [Azure ML SDK Overview](https://docs.microsoft.com/ru-ru/python/api/overview/azure/ml/?view=azure-ml-py), Microsoft Docs.
 2. [Install Azure ML SDK](https://docs.microsoft.com/ru-ru/python/api/overview/azure/ml/install?view=azure-ml-py), Microsoft Docs.
@@ -63,15 +65,21 @@ cd azure-ml-service/
 
 Go to [Azure ML portal](https://ml.azure.com/) and using UI:
 
-1. Create new Datastore
-2. Upload to created Datastore `diabetes_train.csv` dataset from [`data`](../data) dir.
+Steps: 
 
-#### References
+1. Create new Datastore
+  a. _Hint:_ use [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/) for manually upload data to created Datastore
+2. Upload to created Datastore `diabetes_train.csv` dataset from [`data`](../data) dir.
+  a. _Hint:_ use https://raw.githubusercontent.com/codez0mb1e/AI-in-cloud-workshop/azure-ml-ru/data/diabetes_train.csv as link to origin csv file.
+
+References:
 
 1. [Video Instruction]() (in Russian), Youtube.
 
 
 #### Lab 2B: Working with Datastores and Datasets using Azure ML SDK
+
+Steps: 
 
 1. Open and run [02B-datastores-and-datasets](02B-datastores-and-datasets) in JupterLab.
 
