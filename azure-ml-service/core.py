@@ -5,7 +5,7 @@ import os
 import yaml
 
 
-#%% Experiment functions 
+#%% Experiment's functions 
 
 def get_experiment_config(lab_name):
     with open('config.yml', 'r', encoding='utf-8') as f:
@@ -18,6 +18,11 @@ def get_experiment_config(lab_name):
     return experiment_config
 
 
+def get_experiment_dir(config):
+    return os.path.join(config['core']['expriments_root_dir'], config['working_subdir'])
+    
+
 def init_experiment(config):
-    os.makedirs(os.path.join(config['core']['expriments_root_dir'], config['working_subdir']), exist_ok=True)
+    exp_dir = get_experiment_dir(config)
+    os.makedirs(exp_dir, exist_ok=True)
     print('Experiment {} was initialized successfully.'.format(config['experiment_name']))

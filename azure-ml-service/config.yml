@@ -1,8 +1,8 @@
 default:
   core:
     expriments_root_dir: 'expriments/'
-    datastore_name: 'aml-workshop-data'
-    dataset_name: 'diabetes_db'
+    datastore_name: 'aml_ws_datastore_v2'
+    dataset_name: 'diabetes-data'
     ml_cluster_name: 'aml-ws-cluster'
     ml_model_name: 'diabetes-predict-model'
     
@@ -10,10 +10,10 @@ default:
     experiment_name: 'azure-ml-sdk-intro'
   
   lab_2B:
-    experiment_name: 'dataset-experiment'
-    storage_account_name: ''
-    storage_container_name: ''
-    storage_account_key: ''
+    experiment_name: 'datasets-experiment'
+    storage_account_name: 'aiclouddata'
+    storage_container_name: 'aml-ws-data'
+    storage_account_key: 'eSy/BWB0hvEkguj36V63lT87fFskj/OlklaavThM0S/qwlaMXfI7vZNP19HDtYUUpacIoMxzlaFzkifd22xZKg=='
   
   lab_3B:
     experiment_name: 'ml-model-inference-experiment'
@@ -25,7 +25,7 @@ default:
   
   lab_4B:
     experiment_name: 'train-model-experiment'
-    experiment_tag: ''
+    working_subdir: 'train-model-experiment-lab'
   
   lab_5A:
     experiment_name: 'environments-experiment'
