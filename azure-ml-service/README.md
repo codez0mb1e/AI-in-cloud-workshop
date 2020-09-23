@@ -61,26 +61,83 @@ References:
 
 ## Module II: Azure ML Datastores and Datasets
 
-#### Lab 2A: Working with Datastores and Datasets using Azure ML Portal
+### Lab 2A: Working with Datastores and Datasets using Azure ML Portal
 
 Go to [Azure ML portal](https://ml.azure.com/) and using UI:
 
 Steps: 
 
 1. Create new Datastore
-  a. _Hint:_ use [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/) for manually upload data to created Datastore
+  - _Hint:_ use [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/) for manually upload data to created Datastore
+  
 2. Upload to created Datastore `diabetes_train.csv` dataset from [`data`](../data) dir.
-  a. _Hint:_ use https://raw.githubusercontent.com/codez0mb1e/AI-in-cloud-workshop/azure-ml-ru/data/diabetes_train.csv as link to origin csv file.
+  - _Hint:_ use https://raw.githubusercontent.com/codez0mb1e/AI-in-cloud-workshop/azure-ml-ru/data/diabetes_train.csv as link to origin csv file.
 
 References:
 
 1. [Video Instruction]() (in Russian), Youtube.
+2. [About Diabetes dataset](dataset.md).
 
 
-#### Lab 2B: Working with Datastores and Datasets using Azure ML SDK
+### Lab 2B: Working with Datastores and Datasets using Azure ML SDK
 
 Steps: 
 
 1. Open and run [02B-datastores-and-datasets](02B-datastores-and-datasets) in JupterLab.
 
+References:
 
+1. [Dataset module](https://docs.microsoft.com/ru-ru/python/api/azureml-core/azureml.core.dataset?view=azure-ml-py), Azure ML SDK Docs.
+1. [Datastore module](https://docs.microsoft.com/ru-ru/python/api/azureml-core/azureml.core.datastore?view=azure-ml-py), Azure ML SDK Docs.
+
+## Module III: Azure ML Designer
+
+## Lab 3A: Train and deploy model using Azure ML Designer
+
+Steps: 
+
+1. Create and deploy model using Azure ML Designer (see [1])
+
+References:
+
+1. [Video Instruction]() (in Russian), Youtube.
+1. [Azure ML Designer Overview](https://docs.microsoft.com/ru-ru/azure/machine-learning/concept-designer), Microsoft Docs.
+1. Tutorial: [Deploy a machine learning model with the designer](https://docs.microsoft.com/ru-ru/azure/machine-learning/tutorial-designer-automobile-price-deploy), Microsoft Docs.
+
+
+### Lab 3B: Inference deployed ML model
+
+Steps: 
+
+1. Get `Endpoint URI` and `API Key` for deployed ML model
+1. Update `endpoint_uri` and `api_key` in [config.yml](config.yml)
+1. Open and run [03B-model-inference.ipynb](03B-model-inference.ipynb) in JupterLab.
+
+
+## Module IV: Azure ML Experiments
+
+## Lab 4A: Create and run Azure ML Experiments
+
+Steps: 
+
+1. Open and run [04A-experiments.ipynb](04A-experiments.ipynb) in JupterLab.
+
+References:
+
+1. [Experiment module](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py), Azure ML SDK Docs.
+
+## Lab 4B: Train model using Azure ML Experiments
+
+Steps: 
+
+1. Open and run [04B-training-model.ipynb](04B-training-model.ipynb) in JupterLab.
+
+References:
+
+1. [Estimator for training with Scikit-Learn](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.sklearn?view=azure-ml-py), Azure ML SDK Docs.
+
+
+
+## Final Project
+
+1. Read [instruction](final-project.md).
