@@ -1,6 +1,6 @@
 default:
   core:
-    expriments_root_dir: 'expriments/'
+    expriments_root_dir: 'experiments/'
     datastore_name: 'aml_ws_datastore_v2'
     dataset_name: 'diabetes-data'
     ml_cluster_name: 'aml-ws-cluster'
@@ -13,7 +13,7 @@ default:
     experiment_name: 'datasets-experiment'
     storage_account_name: 'aiclouddata'
     storage_container_name: 'aml-ws-data'
-    storage_account_key: 'eSy/BWB0hvEkguj36V63lT87fFskj/OlklaavThM0S/qwlaMXfI7vZNP19HDtYUUpacIoMxzlaFzkifd22xZKg=='
+    storage_account_key: '******'
   
   lab_3B:
     experiment_name: 'ml-model-inference-experiment'
