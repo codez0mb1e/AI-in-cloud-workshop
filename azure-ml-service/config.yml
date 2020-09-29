@@ -29,21 +29,25 @@ default:
   
   lab_5A:
     experiment_name: 'environments-experiment'
-    experiment_tag: ''
+    working_subdir: 'environments-experiment-lab'
     
   lab_5B:
     experiment_name: 'compute-targets-experiment'
-    experiment_tag: ''
+    working_subdir: 'compute-targets-experiment-lab'
+    environment_name: 'environments-experiment'
     
   lab_6A:
     experiment_name: 'pipeline-experiment'
+    working_subdir: 'pipeline-experiment-lab'
+    environment_name: 'environments-experiment'
     
   lab_6B:
     experiment_name: 'pipeline-experiment'
   
   lab_7A:
     experiment_name: 'realtime-service-experiment'
-    experiment_tag: 'RealtimeService'
+    working_subdir: 'realtime-service-experiment-lab'
+    service_name: 'diabetes-predict-service'
     
   lab_7B:
     experiment_name: 'batch-service-experiment'
