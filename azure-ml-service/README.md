@@ -1,9 +1,6 @@
 
 # Azure Machine Learning Workshop
 
-## Requirements
-
-
 
 ## Module I: Introduction to Azure Machine Learning
 
@@ -90,6 +87,8 @@ References:
 1. [Dataset module](https://docs.microsoft.com/ru-ru/python/api/azureml-core/azureml.core.dataset?view=azure-ml-py), Azure ML SDK Docs.
 1. [Datastore module](https://docs.microsoft.com/ru-ru/python/api/azureml-core/azureml.core.datastore?view=azure-ml-py), Azure ML SDK Docs.
 
+
+
 ## Module III: Azure ML Designer
 
 ## Lab 3A: Train and deploy model using Azure ML Designer
@@ -112,6 +111,7 @@ Steps:
 1. Get `Endpoint URI` and `API Key` for deployed ML model
 1. Update `endpoint_uri` and `api_key` in [config.yml](config.yml)
 1. Open and run [03B-model-inference.ipynb](03B-model-inference.ipynb) in JupterLab.
+
 
 
 ## Module IV: Azure ML Experiments

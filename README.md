@@ -1,6 +1,7 @@
 
 # AI in Microsoft Azure Workshop
 
+
 ## Syllabus
 
 #### Introduction
@@ -11,9 +12,12 @@ Requirements to the students:
 
 1. Modern web browser
 2. [Microsoft Azure Account](https://azure.microsoft.com/en-us/)
-3. [Basic knowledge in R](https://codez0mb1e.github.io/StarRter/) or Python.
+3. [Basic knowledge in R](https://codez0mb1e.github.io/StarRter/) or Python
+4. (Optional) [GitHub Account](https://github.com/).
 
-#### Module I: Basics of Machine Learning
+
+
+#### Part I: Basics of Machine Learning
 
 ##### Introduction to Machine Learning
 
@@ -74,10 +78,11 @@ Advanced materials:
 
 ##### Practice
 
-1. Create [Azure ML Workspace](https://portal.azure.com/#create/Microsoft.MachineLearningServices)
-1. [Pima Indians Diabetes Lab](pima-indians-diabetes/) in Azure ML.
+1. [Azure ML Workshop](azure-ml-service/).
 
-#### Module II: Basics of Deep Learning
+
+
+#### Part II: Basics of Deep Learning
 
 ##### Introduction to Deep Learning
 
@@ -123,7 +128,9 @@ Advanced materials:
 1. [MNIST Digits Recognition](mnist-digits-recognition/) Lab
 1. [Bitcoin price prediction](https://github.com/codez0mb1e/evangelism/tree/master/AI-Workshop/samples/LSTM).
 
-#### Module III. Large Scalable Machine Learning
+
+
+#### Part III. Large Scalable Machine Learning
 
 ##### Big Data Concepts
 
@@ -157,3 +164,7 @@ Practice:
 ##### MLOps
 
 - [Slides](https://www.codeinstinct.pro/2018/11/data-science-in-cloud.html)
+
+
+
+#### Part IV. Final Project
