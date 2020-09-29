@@ -73,14 +73,14 @@ Steps:
 References:
 
 1. [Video Instruction]() (in Russian), Youtube.
-2. [About Diabetes dataset](dataset.md).
+2. [About Diabetes dataset](datasets.md).
 
 
 ### Lab 2B: Working with Datastores and Datasets using Azure ML SDK
 
 Steps: 
 
-1. Open and run [02B-datastores-and-datasets](02B-datastores-and-datasets) in JupterLab.
+1. Open and run [02B-datastores-and-datasets.ipynb](02B-datastores-and-datasets.ipynb) in JupterLab.
 
 References:
 
@@ -91,7 +91,7 @@ References:
 
 ## Module III: Azure ML Designer
 
-## Lab 3A: Train and deploy model using Azure ML Designer
+### Lab 3A: Train and deploy model using Azure ML Designer
 
 Steps: 
 
@@ -116,7 +116,7 @@ Steps:
 
 ## Module IV: Azure ML Experiments
 
-## Lab 4A: Create and run Azure ML Experiments
+### Lab 4A: Create and run Azure ML Experiments
 
 Steps: 
 
@@ -126,7 +126,7 @@ References:
 
 1. [Experiment module](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.experiment.experiment?view=azure-ml-py), Azure ML SDK Docs.
 
-## Lab 4B: Train model using Azure ML Experiments
+### Lab 4B: Train model using Azure ML Experiments
 
 Steps: 
 
@@ -137,7 +137,19 @@ References:
 1. [Estimator for training with Scikit-Learn](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.sklearn?view=azure-ml-py), Azure ML SDK Docs.
 
 
+## Extra
+
+### Development tools for Azure ML
+
+1. Install VS Code and Azure Machine Learning Extension.
+
 
 ## Final Project
 
-1. Read [instruction](final-project.md).
+Steps: 
+
+1. 
+
+References:
+
+1. [Open Data Hubs List](references.md)

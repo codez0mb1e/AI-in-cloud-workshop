@@ -3,7 +3,6 @@
 
 Pima Indians Diabetes is main data set that used in that workshop.
 
-You can find the data set for __the final project__ in [this section](final-project.md).
 
 ## Pima Indians Diabetes
 
