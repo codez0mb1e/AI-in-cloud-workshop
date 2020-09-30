@@ -51,14 +51,13 @@ default:
     
   lab_7B:
     experiment_name: 'batch-service-experiment'
-    experiment_tag: 'BatchService'
+    working_subdir: 'batch-service-experiment-lab'
+    service_name: 'diabetes-predict-service'
     
   lab_8A:
     experiment_name: 'hyperparam-tuning-experiment'
-    experiment_tag: 'HyperDrive'
+    working_subdir: 'hyperparam-tuning-experiment-lab'
     
-  lab_8A:
+  lab_8B:
     experiment_name: 'auto-ml-experiment'
-    experiment_tag: 'AutoML'
-    working_subdir: 'auto-ml-lab'
-    
+    working_subdir: 'auto-ml-experiment-lab'

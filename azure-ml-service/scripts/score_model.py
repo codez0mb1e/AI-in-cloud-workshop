@@ -1,3 +1,4 @@
+
 #%% Import libraries
 import os
 import json
@@ -15,17 +16,17 @@ def init():
     model = joblib.load(model_path)
 
 
-def run(mini_batch):
-    # This runs for each batch
-    results = []
-
-    # process each file in the batch
-    for f in mini_batch:
-        # Read the comma-delimited data into an array
-        data = np.genfromtxt(f, delimiter=',')
-        # Reshape into a 2-dimensional array for prediction (model expects multiple items)
-        prediction = model.predict(data.reshape(1, -1))
-        # Append prediction to results
-        results.append("{}: {}".format(os.path.basename(f), prediction[0]))
+def run(raw_data):
+    # Get the input data as a numpy array
+    data = np.array(json.loads(raw_data)['data'])
+    # Get a prediction from the model
+    predictions = model.predict(data)
+    # Get the corresponding classname for each prediction (0 or 1)
+    classnames = ['not-diabetic', 'diabetic']
     
-    return results
+    predicted_classes = []
+    for prediction in predictions:
+        predicted_classes.append(classnames[prediction])
+        
+    # Return the predictions as JSON
+    return json.dumps(predicted_classes)

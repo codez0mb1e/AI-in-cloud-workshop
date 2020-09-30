@@ -1,3 +1,4 @@
+
 #%% Import libraries
 import argparse
 import joblib
@@ -28,9 +29,8 @@ model = joblib.load(model_path)
 #%% Register model
 Model.register(workspace=run.experiment.workspace,
                model_path=model_path,
-               model_name='diabetes_predict_model',
-               tags={'Demo': 'ML Pipeline'})
-
+               model_name='diabetes-predict-model',
+               tags={'Lab': '5A'})
 
 #%% Finish Experiment
 run.complete()
