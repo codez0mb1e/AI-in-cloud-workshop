@@ -148,7 +148,23 @@ References:
 
 Steps: 
 
-1. 
+#### 1. Define project's topic
+
+- Select and download the data set (see [1])
+- Formulate the problem to be solved in terms of Machine learning.
+
+
+#### 2. Find the solution by using Azure Machine Learning service Using the Azure ML developer or the Azure ML SDK:
+
+- Download and register the downloaded dataset as an Azure ML Datasets
+- Create an Experiment for Project
+- Train a machine learning model using hyperparameter tuning or/and Auto ML 
+- Publish the trained model as a web service
+- Using the Azure ML SDK, connect to a published web service and send a request to it with new data to make a forecast for.
+
+#### 3. Share your Solution with the world
+
+- The way - up to you!
 
 References:
 
