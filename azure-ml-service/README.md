@@ -39,7 +39,7 @@ cd azure-ml-service/
 References:
 
 1. [Azure Machine Learning Overview](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml), Micosoft Docs.
-1. [Video Instruction]() (in Russian), Youtube.
+1. [Video Instruction](https://youtu.be/Kkyrk-1fT7k) (in Russian), Youtube.
 
 
 ### Lab 1B: Azure ML SDK
@@ -72,7 +72,7 @@ Steps:
 
 References:
 
-1. [Video Instruction]() (in Russian), Youtube.
+1. [Video Instruction](https://youtu.be/ls6CwSUti_o) (in Russian), Youtube.
 2. [About Diabetes dataset](datasets.md).
 
 
@@ -99,7 +99,7 @@ Steps:
 
 References:
 
-1. [Video Instruction]() (in Russian), Youtube.
+1. [Video Instruction](https://youtu.be/oaZHALjlwVM) (in Russian), Youtube.
 1. [Azure ML Designer Overview](https://docs.microsoft.com/ru-ru/azure/machine-learning/concept-designer), Microsoft Docs.
 1. Tutorial: [Deploy a machine learning model with the designer](https://docs.microsoft.com/ru-ru/azure/machine-learning/tutorial-designer-automobile-price-deploy), Microsoft Docs.
 
