@@ -17,7 +17,7 @@ Requirements to the students:
 
 
 
-#### Part I: Basics of Machine Learning
+#### Part I: The Basics of Machine Learning
 
 ##### Introduction to Machine Learning
 
@@ -30,7 +30,7 @@ Topics:
 
 Materials:
 
-- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjLkCLr7vKvADYpWZgA?e=mKuzCn).
+- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjNdlSY9u64pIR_WsyQ).
 
 Advanced materials:
 
@@ -82,7 +82,7 @@ Advanced materials:
 
 
 
-#### Part II: Basics of Deep Learning
+#### Part II: The Basics of Deep Learning
 
 ##### Introduction to Deep Learning
 
@@ -97,7 +97,7 @@ Topics:
 
 Materials:
 
-- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjLkEnIm-_G37lRIkZg?e=Jtcp8T).
+- Slides (will add link asap).
 
 Advanced materials:
 
