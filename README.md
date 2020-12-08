@@ -97,7 +97,7 @@ Topics:
 
 Materials:
 
-- Slides (will add link asap).
+- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjNdqOFFezarq4rpo-g).
 
 Advanced materials:
 
@@ -164,7 +164,6 @@ Practice:
 ##### MLOps
 
 - [Slides](https://www.codeinstinct.pro/2018/11/data-science-in-cloud.html)
-
 
 
 #### Part IV. Final Project
