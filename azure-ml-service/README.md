@@ -24,7 +24,7 @@ cd Users/<your_user_name> # WARN: replace on your user name'
 git clone https://github.com/codez0mb1e/AI-in-cloud-workshop.git
 
 cd AI-in-cloud-workshop/
-git checkout azure-ml-ru
+git checkout winter-school-2020
 ```
 
 #### Install dependencies
