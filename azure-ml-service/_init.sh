@@ -4,8 +4,8 @@
 python --version
 pip --version
 
+# update pip (optional)
+pip install --upgrade pip
+
 # install dependencies
 pip install -r requirements.txt
-
-# update installed dependecies (optional)
-# pip install --upgrade azureml-sdk --use-feature=2020-resolver
