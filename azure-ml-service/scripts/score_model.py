@@ -1,4 +1,5 @@
 
+
 #%% Import libraries
 import os
 import json
@@ -16,17 +17,19 @@ def init():
     model = joblib.load(model_path)
 
 
-def run(raw_data):
+def run(new_data):
     # Get the input data as a numpy array
-    data = np.array(json.loads(raw_data)['data'])
+    data = np.array(json.loads(new_data)['data'])
+    
     # Get a prediction from the model
-    predictions = model.predict(data)
+    pred = model.predict(data)
+    
     # Get the corresponding classname for each prediction (0 or 1)
     classnames = ['not-diabetic', 'diabetic']
     
     predicted_classes = []
-    for prediction in predictions:
-        predicted_classes.append(classnames[prediction])
+    for p in pred:
+        predicted_classes.append(classnames[p])
         
     # Return the predictions as JSON
     return json.dumps(predicted_classes)

@@ -1,3 +1,5 @@
+
+
 #%% Import libraries
 import os
 import argparse
@@ -48,34 +50,36 @@ run.log('Regularization Rate',  np.float(reg))
 model = LogisticRegression(C=1/reg, solver='liblinear').fit(X_train, y_train)
 
 
-#%% calculate accuracy
+#%% Сalculate accuracy
 y_hat = model.predict(X_test)
 acc = np.average(y_hat == y_test)
+
 print(f'Accuracy: {acc}')
 run.log('Accuracy', np.float(acc))
 
 
-#%% calculate AUC
+#%% Сalculate AUC
 y_scores = model.predict_proba(X_test)
 auc = roc_auc_score(y_test,y_scores[:,1])
+
 print(f'AUC: {str(auc)}')
 run.log('AUC', np.float(auc))
 
 
-#%% plot ROC curve
+#%% Plot ROC curve
 fpr, tpr, thresholds = roc_curve(y_test, y_scores[:,1])
 fig = plt.figure(figsize=(6, 4))
 
 
-#%% Plot the diagonal 50% line
+# the diagonal 50% line
 plt.plot([0, 1], [0, 1], 'k--')
 
-
-#%% Plot the FPR and TPR achieved by our model
+# the FPR and TPR
 plt.plot(fpr, tpr)
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('ROC Curve')
+
 run.log_image(name='ROC', plot = fig)
 plt.show()
 
@@ -85,4 +89,6 @@ plt.show()
 os.makedirs(output_dir, exist_ok=True)
 joblib.dump(value=model, filename=f'{output_dir}/model.pkl')
 
+
 run.complete()
+print('Completed.')
