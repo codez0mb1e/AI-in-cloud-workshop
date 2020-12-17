@@ -110,12 +110,13 @@ Advanced materials:
 
 Topics:
 
-- Virtual machines for Data Science
-- Data Science VM images types.
+- Azure AI Platform Overview
+- Azure Data Science VM images
+- Azure Machine Learning Service.
 
 Materials:
 
-- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjLkDGRcDRPR4GwXG-A?e=6jjCJw)
+- [Slides](https://1drv.ms/p/s!Aq3CCEvm580vjNgGPvx_hur-n0b4Bw)
 - [Neural Networks in Azure ML Studio](https://youtu.be/Pa5DmvvcwLI) video lecture.
 
 Advanced materials:
